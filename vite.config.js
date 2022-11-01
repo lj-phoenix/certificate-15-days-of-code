@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/certificate-cyber-whiz",
+  base: "/certificate-15-days-of-code",
 });

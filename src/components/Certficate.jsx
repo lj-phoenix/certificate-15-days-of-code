@@ -38,17 +38,17 @@ function Certificate() {
   function certificateApperication(type) {
     switch (type) {
       case `1st`:
-        return `For your exceptional performance and for securing <b>1st</b> rank in the event <b>Cyber Whiz</b> `;
+        return `For your exceptional performance and for securing <b>1st</b> rank in the event <b>15 Days Of Code</b> `;
       case `2nd`:
-        return `For your exceptional performance and for securing <b>2nd</b> rank in the event <b>Cyber Whiz</b> `;
+        return `For your exceptional performance and for securing <b>2nd</b> rank in the event <b>15 Days Of Code</b> `;
       case `3rd`:
-        return `For your exceptional performance and for securing <b>3rd</b> rank in the event <b>Cyber Whiz</b> `;
+        return `For your exceptional performance and for securing <b>3rd</b> rank in the event <b>15 Days Of Code</b> `;
       case `mentor`:
-        return `For their active mentorship during the event <b>Cyber Whiz</b> organised by <b>LJ Phoenix Club</b>. `;
+        return `For their active mentorship during the event <b>15 Days Of Code</b> organised by <b>LJ Phoenix Club</b>. `;
       case `co-ordinator`:
-        return `For actively coordinating and managing the event <b>Cyber Whiz</b> organised by <b>LJ Phoenix Club</b>. `;
+        return `For actively coordinating and managing the event <b>15 Days Of Code</b> organised by <b>LJ Phoenix Club</b>. `;
       case `participant`:
-        return `For their active participation and commitment to the event <b>Cyber Whiz</b> along with performing mini cyber hacks`;
+        return `For their active participation and commitment to the event <b>15 Days Of Code</b> along with performing mini cyber hacks`;
       default:
         return "";
     }
@@ -135,7 +135,7 @@ function Certificate() {
                 "certificate_" + info.name.toLowerCase().replaceAll(" ", "_")
               );
             } else {
-              window.alert("Sorry Buddy, This trick is not work 😁😁");
+              window.alert("Sorry, Buddy, that thing doesn't work 😁😁");
             }
           }}
         >
