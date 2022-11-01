@@ -5,12 +5,12 @@ import logo from "../logo.svg";
 import "../App.scss";
 import { printDiv } from "../helper/util";
 
-import certificate1st from "../media/1st_u.svg";
-import certificate2nd from "../media/2nd_u.svg";
-import certificate3rd from "../media/3rd_u.svg";
-import certificateCo from "../media/co2_u.svg";
-import certificateParticipant from "../media/participants_u.svg";
-import certificateMentor from "../media/mentor_u.svg";
+import certificate1st from "../media/1st_c.svg";
+import certificate2nd from "../media/2nd_c.svg";
+import certificate3rd from "../media/3rd_c.svg";
+import certificateCo from "../media/co2_v.svg";
+import certificateParticipant from "../media/participants_c.svg";
+import certificateMentor from "../media/mentor_c.svg";
 
 import { students } from "../students";
 
