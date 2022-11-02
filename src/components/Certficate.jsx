@@ -48,25 +48,26 @@ function Certificate() {
       case `co-ordinator`:
         return `For actively coordinating and managing the event <b>15 Days Of Code</b> organised by <b>LJ Phoenix Club</b>. `;
       case `participant`:
-        return `For their active participation and commitment to the event <b>15 Days Of Code</b> along with performing mini cyber hacks`;
+        return `For their active participation and commitment to the event <b>15 Days Of Code</b> organised by <b>LJ Phoenix Club</b`;
       default:
         return "";
     }
   }
   function certificateSkillEarned(type) {
+    // The participant was skilled in <b>Computer Architecture, Computer Networks, Cyber Security</b>
     switch (type) {
       case `1st`:
-        return `The participant was skilled in <b>Computer Architecture, Computer Networks, Cyber Security</b>`;
+        return ``;
       case `2nd`:
-        return `The participant was skilled in <b>Computer Architecture, Computer Networks, Cyber Security</b>`;
+        return ``;
       case `3rd`:
-        return `The participant was skilled in <b>Computer Architecture, Computer Networks, Cyber Security</b>`;
+        return ``;
       case `mentor`:
         return `We are really thankful for your lasting efforts and commitment that made this event a super success.`;
       case `co-ordinator`:
         return `We are really thankful for your support and presence that made this event a super success.`;
       case `participant`:
-        return `Skills obtained: <b>Computer Architecture, Computer Networks, Cyber Security</b>`;
+        return ``;
       default:
         return "";
     }
